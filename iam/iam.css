@@ -1,0 +1,57 @@
+
+.lipcontainer {
+  display: flex;
+  text-align: center;
+}
+
+.lipcontainer > div {
+  flex: 1;
+}
+
+.lipbreathe {
+  display: flex;
+}
+
+.lipbreathe > div {
+  flex: 1;
+}
+
+.liplabels {
+  background-color: #ffe0b2;
+  display: flex-inline;
+}
+
+.liplabels > div {
+}
+
+.liplabelrow {
+  display: flex;
+}
+
+.liplabelrow > div {
+  flex: 1;
+}
+
+.liphero {
+  flex: 2;
+}
+
+.menusized > div {
+  font-size: 1.4em;
+  color: grey;
+}
+
+.lipside {
+  flex: 5 !important;
+}
+
+.liphero {
+  flex: 2 !important;
+  font-size: 2em;
+}
+
+.line {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
